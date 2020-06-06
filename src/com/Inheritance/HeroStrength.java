@@ -1,9 +1,9 @@
 package com.Inheritance;
 
 public class HeroStrength extends Hero{
-    double defencePower;
+    private int defencePower;
 
-    HeroStrength(String inputName, double inputDefencePower){
+    HeroStrength(String inputName, int inputDefencePower){
 
         super(inputName);
 
@@ -11,6 +11,17 @@ public class HeroStrength extends Hero{
         defencePower = inputDefencePower;
 
         
+    }
+
+    //fungsi GETTER
+    public int getDefencePower()
+    {
+        return this.defencePower;
+    }
+
+    public void setDefencePower(int setValue)
+    {
+        this.defencePower = setValue;
     }
 
     void Display(){
