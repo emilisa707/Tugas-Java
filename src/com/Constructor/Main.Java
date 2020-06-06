@@ -1,11 +1,5 @@
 package com.Constructor;
 
-//class tanpa constructor / class polos
-class Polos{
-    String dataString;
-    int dataInteger;
-}
-
 //class dengan constructor
 
 class Mahasiswa{
