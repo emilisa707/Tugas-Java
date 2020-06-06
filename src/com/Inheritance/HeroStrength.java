@@ -1,4 +1,4 @@
-package com.latihan;
+package com.Inheritance;
 
 public class HeroStrength extends Hero{
     double defencePower;
