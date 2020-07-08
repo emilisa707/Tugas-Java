@@ -5,12 +5,15 @@ public class Hero {
 
     Hero(String inputName){
         name = inputName;
-
-        
-        
     }
 
+    Hero()
+    {
+        name = "anda belum memasukan nama";
+    }
+
+    
     void Display(){
-        System.out.println("hero name: " + this.name);
+        System.out.println("hero name : " + this.name);
     }
 }
